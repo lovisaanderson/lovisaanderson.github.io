@@ -1,3 +1,14 @@
 body{
-    background-color:blue
+    background-color:lightpink;
+}
+header{
+    background-color: aquamarine;
+}
+footer{
+    background-color:darkcyan;
+    color:white;
+        min-height:50px;
+        position: absolute;
+        bottom: 0;
+        width: 100%
 }
