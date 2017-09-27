@@ -10,3 +10,12 @@ table{
 th{
     color:blue
 }
+main{
+    font-family: monospace
+}
+h1{
+    font-family: monospace
+}
+h1{
+    border-bottom: 5px solid skyblue
+}
