@@ -1,4 +1,13 @@
-h1{
-     color: green;
-     font-family: Arial, sans-serif;
+body{
+    background-color:white;
 }
+tfoot{
+    background-color: lightcyan
+}
+table{
+    background-color: lightblue
+}
+th{
+    color:blue
+}
+
