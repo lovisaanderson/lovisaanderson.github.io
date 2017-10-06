@@ -1,0 +1,14 @@
+body{
+    background-color:lightblue;
+}
+h1{
+    border-bottom: 5px solid white;
+}
+nav{
+    border: 5px dotted white;
+    width: 12%;
+    padding: 0px 10px;
+}
+.block{
+    display: block;
+}
