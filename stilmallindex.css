@@ -1,14 +1,30 @@
 body{
     background-color:lightblue;
+    font-family: Georgia, serif	
+
 }
 h1{
     border-bottom: 5px solid white;
 }
-nav{
+
+nav#meny{
+    
+    width: 5%;
+    padding: 2px 10px;
+     display: inline-block;
+    vertical-align: top;
+    border: 2px solid white;
+
+}
+nav#webbsidor{
+    padding: 2px 10px;
     border: 5px dotted white;
-    width: 12%;
-    padding: 0px 10px;
 }
 .block{
     display: block;
+}
+main{
+
+    display: inline-block;
+    width: 200px;
 }
