@@ -28,3 +28,19 @@ main{
     display: inline-block;
     width: 200px;
 }
+footer nav a{
+    display:inline-block;
+    margin:5px;
+    border: 1px solid blue;
+    padding:2px 5px;
+    text-decoration: none;
+    border-radius: 8px;
+    background-color:aliceblue
+
+}
+h3{
+    border-bottom: 2px solid black;
+}
+footer h3{
+    width: 100%
+}
