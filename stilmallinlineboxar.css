@@ -4,7 +4,8 @@ section{
     background-color: lightgreen;
     display: inline-block;
     vertical-align: top;
-    min-height: 250px;
+    min-height: 300px;
+    padding: 15px
 }
 img{
     float: right;
