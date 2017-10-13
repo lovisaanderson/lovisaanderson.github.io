@@ -1,0 +1,17 @@
+section{
+    max-width: 49%;
+    min-width:  320px;
+    background-color: lightgreen;
+    display: inline-block;
+    vertical-align: top;
+    min-height: 250px;
+}
+img{
+    float: right;
+}
+h2{
+    margin: 10px 0 2px 0;
+}
+* {
+  box-sizing: border-box;
+}
