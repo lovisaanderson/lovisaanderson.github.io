@@ -1,0 +1,13 @@
+body{
+    background-color:rgb(206,198,252);
+}
+h1{
+    background-color:rgb(144,8,254);
+}
+header{
+    background-color:rgb(195,160,254);
+}
+div{
+    width: 900px;
+    margin: auto
+}

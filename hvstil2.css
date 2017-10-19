@@ -1,0 +1,34 @@
+body{
+    background-color: grey;
+    font-family: "arial";
+}
+h1{
+    background-color:rgb(68,68,68);
+}
+div{
+    background-color:rgb(229,241,249);
+    width: 800px;
+    margin:auto;
+}
+p, h2, h1{
+      padding: 0 20px;
+}
+img{
+    float: right;
+    padding: 0 25px;
+}
+footer{
+    background-image: url(vatten.jpg);
+    min-height: 280px;
+    background-position: bottom;
+    background-size: cover;
+}
+h1{
+    color: white;
+}
+footer h2{
+    margin: 60px 0
+}
+header p{
+    font-size: 120%
+}
