@@ -1,0 +1,43 @@
+#rcorners2 {
+    border-radius: 10px;
+    border: 2px solid pink;
+    padding: 15px; 
+    background-color: aliceblue
+}
+#example1 {
+    background-image: url(LemonButterfly-300px.png), url(background.png);
+    background-position: left bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px dotted pink;
+}
+#grad1 {
+    background: lightgreen; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(lightgreen, yellow); /* For Safari 5.1 to 6.0 */
+    padding:  15px;
+        border-radius: 10px;
+}
+h1 {
+    text-shadow: 2px 2px 5px pink;
+}
+#p4 {
+    -webkit-transform: rotate(20deg); /* Safari */
+    width: 300px;
+    background-color: yellow;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 40px;
+    box-shadow: 10px 10px;
+}
+#bild1{
+    position: relative;
+    animation-name: bild;
+    animation-duration: 30s;
+}
+@keyframes bild{
+     0%   { left:0px;}
+    100% { left:800px;}
+}
