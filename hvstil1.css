@@ -3,6 +3,7 @@ body{
 }
 h1{
     background-color:rgb(144,8,254);
+    color: white;
 }
 header{
     background-color:rgb(195,160,254);
@@ -10,4 +11,7 @@ header{
 div{
     width: 900px;
     margin: auto
+}
+body{
+    font-family: "arial", sans-serif;
 }
