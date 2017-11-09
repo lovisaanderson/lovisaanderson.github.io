@@ -12,14 +12,18 @@ nav{
         height: 400px;
         display: inline-block;
         vertical-align: top;
+        padding: 45px 10px;
     }
-    img{
-        max-height:340px;
-    }
+ 
     main{
-        width: 500px;
+        width: 1000px;
         height: 1000px;
         display: inline-block;
         vertical-align: top;
+        padding: 20px;
+    }
+    img{
+        max-height:340px;
+        float: right;
     }
 }
