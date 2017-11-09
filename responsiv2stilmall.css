@@ -6,3 +6,20 @@ nav{
     background-color: lightcyan;
     padding: 8px;
 }
+@media (min-width: 800px){
+    nav{
+        width: 130px;
+        height: 400px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    img{
+        max-height:340px;
+    }
+    main{
+        width: 500px;
+        height: 1000px;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
