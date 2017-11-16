@@ -1,0 +1,6 @@
+div#info{
+    display: none;
+}
+#openinfo{
+    cursor: pointer;
+}
