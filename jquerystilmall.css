@@ -4,3 +4,20 @@ div#info{
 #openinfo{
     cursor: pointer;
 }
+.selected{
+    background-color:black;
+    color: pink;
+}
+input[type="color"] { 
+width:30px; 
+height:30px;  
+}
+div{
+    max-width: 50%;
+    min-width:  120px;
+    background-color: aliceblue;
+    display: inline-block;
+    vertical-align: top;
+    min-height: 100px;
+    padding: 10px
+}
