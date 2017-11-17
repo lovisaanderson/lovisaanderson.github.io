@@ -11,4 +11,8 @@ $(function(){
      $("#tecolor").change(function(){
         $("body").css("color",$(this).val());
     });
+     $("#rubrik").focusout(function(){
+        $("h1").text($(this).val());
+    });
 });
+
