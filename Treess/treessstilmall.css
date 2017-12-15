@@ -66,7 +66,7 @@ section{
     font-family: Skia;
     
 }
-#husnav{
+.husnav{
     width: 100%
     display: inline-block;
     margin-right: 100%
