@@ -1,0 +1,74 @@
+*{
+    box-sizing:border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    width: 100%;
+}
+figure{
+    width: 100px;
+    display: inline-block;
+}
+body{
+    text-align: center;
+    background-image: url(web.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    width: 100%;
+}
+header{
+    text-shadow: 2px 2px 5px black;
+    color: white;
+    font-size: 40px;
+    margin: 0;
+}
+h1{
+    margin: 0;
+}
+h2{
+    text-shadow: 2px 2px 5px black;
+    color: white;
+    
+}
+#p1{
+    text-shadow: 2px 2px 5px black;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+figcaption{
+}
+a{
+    color:white;
+}
+a:visited{
+    color:darkblue;
+}
+section{
+    display:none;
+    margin: auto;
+    background-color: white;
+    vertical-align: top;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: px;
+    padding:10px;
+    font-family: Skia;
+    
+}
+#husnav{
+    width: 100%
+    display: inline-block;
+    margin-right: 100%
+}
+img{
+    max-width:90%;
+}
