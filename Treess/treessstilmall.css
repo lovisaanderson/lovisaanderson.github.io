@@ -33,7 +33,9 @@ h1{
 h2{
     text-shadow: 2px 2px 5px black;
     color: white;
-    
+}
+h3{
+    text-decoration: underline
 }
 #p1{
     text-shadow: 2px 2px 5px black;
