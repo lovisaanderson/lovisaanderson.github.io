@@ -67,7 +67,7 @@ section{
     
 }
 .husnav{
-    width: 100%
+    float:left;
     display: inline-block;
     margin-right: 100%
 }
