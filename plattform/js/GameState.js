@@ -3,6 +3,7 @@ var antal = 7;
     JUMP = 500;
 
 var door;
+var text='';
 
 var GameState = {
     create: function(){
@@ -75,10 +76,18 @@ var GameState = {
         snow7.body.immovable = true;
         storplatform.body.allowGravity = false;
         storplatform.body.immovable = true;
+        
+        text = game.add.text(20, 20, "Antal kvar: 7", {
+        font: "30px Arial",
+        fill: "#ff0044"
+    });
 
         musik = this.add.audio('bakgrundsmusik');
         musik.play();
-
+        
+        fail = this.add.audio('fail');
+        
+        point = this.add.audio('point');
         
         pil = this.input.keyboard.createCursorKeys();
         jumpBotton = this.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
@@ -169,6 +178,9 @@ var GameState = {
             snow.kill();
             antal = antal-1;
             console.log(antal);
+            point.play();
+        
+         text.setText("Antal kvar: " + antal);
         
         if(antal <= 0 && snow7.visible == false) {
                 door.visible = true;    
@@ -177,6 +189,7 @@ var GameState = {
         killpingvin: function (pingvin, mask){
             pingvin.kill();
             game.state.start('GameOver');
+             fail.play();
               
         },
             //tar en till nivå två genom att ta sig till igloon

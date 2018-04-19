@@ -8,9 +8,10 @@ var level2 = {
         platform2 = this.add.sprite(75,500,'plattform');
         platform3 = this.add.sprite(420,425,'plattform');
         pingvin = this.add.sprite(200,20,'pingvin');
+        pingvin.anchor.setTo(0.5);
         storplatform = this.add.sprite(0,670,'storplattform');
         platform4 = this.add.sprite(150,175,'isplattform');
-        platform5 = this.add.sprite(750,270,'isplattform');
+        platform5 = this.add.sprite(800,270,'isplattform');
         platform6 = this.add.sprite(400,250,'isplattform');
         platform7 = this.add.sprite(600,100,'isplattform');
         platform8 = this.add.sprite(850,525,'isplattform3');
@@ -82,6 +83,18 @@ var level2 = {
         snow7.body.immovable = true;
         storplatform.body.allowGravity = false;
         storplatform.body.immovable = true;
+        
+        text = game.add.text(20, 20, "Antal kvar: 7", {
+        font: "30px Arial",
+        fill: "#ff0044"
+    });
+        
+        musik = this.add.audio('bakgrundsmusik');
+        musik.play();
+        
+        fail = this.add.audio('fail');
+        
+        point = this.add.audio('point');
 
 
         pil = this.input.keyboard.createCursorKeys();
@@ -215,6 +228,9 @@ var level2 = {
         snow.kill();
         antal = antal-1;
         console.log(antal);
+        point.play();
+        
+        text.setText("Antal kvar: " + antal);
 
         if(antal <= 0) {
             door.visible = true;
@@ -223,6 +239,7 @@ var level2 = {
     killpingvin: function (pingvin, mask){
                 pingvin.kill();
                 game.state.start('GameOver');
+                fail.play();
     },
     nextlevelHandler: function (pingvin, door){
         console.log('slutet');
