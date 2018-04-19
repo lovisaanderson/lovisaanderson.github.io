@@ -34,12 +34,9 @@ h2{
     text-shadow: 2px 2px 5px black;
     color: white;
 }
-h3{
-    text-decoration: underline
-}
 #p1{
-    text-shadow: 2px 2px 5px black;
-    color: white;
+    text-shadow: 2px 2px 5px white;
+    color: black;
     padding: 10px;
     font-size: 20px;
 }
@@ -73,4 +70,7 @@ section{
 }
 img{
     max-width:90%;
+}
+@media screen and (min-width: 699px){
+    
 }
