@@ -10,7 +10,7 @@ var vunnit = {
         var stil4 = {font: '22px Arial'};
         
         //Text & dess placering
-        var text = this.add.text(game.world.centerX,150, 'GRATTIS!', stil);
+        var text = this.add.text(game.world.centerX,300, 'GRATTIS!', stil);
         text.anchor.setTo(0.5);
         
         //Text om licenser för bilder

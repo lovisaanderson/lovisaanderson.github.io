@@ -51,7 +51,7 @@ var level2 = {
         bird2.anchor.setTo(0.5);
 
         //Lägger till fysik
-        this.physics.enable([pingvin, platform1, platform2, platform3, platform4, platform5, platform6, platform7, platform8, snow1, snow2, snow3, snow4, snow5, snow6, snow7, storplatform, bird1, bird2, mask1, mask2], Phaser.Physics.ARCADE);
+        this.physics.enable([pingvin, platform1, platform2, platform3, platform4, platform5, platform6, platform7, platform8, snow1, snow2, snow3, snow4, snow5, snow6, snow7, storplatform, bird1, bird2, mask1, mask2, door], Phaser.Physics.ARCADE);
 
         pingvin.body.gravity.y = 600;
         pingvin.body.collideWorldBounds = true;
