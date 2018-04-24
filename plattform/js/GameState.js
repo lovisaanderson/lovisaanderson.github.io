@@ -123,7 +123,6 @@ var GameState = {
         
         this.physics.arcade.overlap(pingvin, [mask1,mask2] , this.killpingvin);
         
-        this.physics.arcade.overlap(pingvin, door, this.nextlevelHandler);
     
         //Funktionen för att pingvinen ska hoppa
         if(jumpBotton.isDown && pingvin.body.touching.down || jumpBotton2.isDown && pingvin.body.touching.down ){
@@ -145,11 +144,13 @@ var GameState = {
             pingvin.body.velocity.x = -SPEED;
             pingvin.scale.setTo(-1,1);
             pingvin.animations.play("go");
+            
         }
         
         //Sätter igång animationen 'idle'
         else{
             pingvin.animations.play("idle");
+            pingvin.body.velocity.x  = 0
         }
         
         //Monstrets rörelse i x-led 

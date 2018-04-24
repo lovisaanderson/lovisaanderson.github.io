@@ -178,6 +178,7 @@ var level2 = {
         //Sätter igång animationen 'idle'
         else{
             pingvin.animations.play("idle");
+            pingvin.body.velocity.x  = 0
         }
         //Monstrets rörelse i x-led 
         if(mask1.x <= 50 && mask1.riktning == 'v') {
