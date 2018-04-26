@@ -72,5 +72,6 @@ img{
     max-width:90%;
 }
 @media screen and (min-width: 699px){
-    
+    max-width: 60%;
+    margin: 0 auto;
 }
